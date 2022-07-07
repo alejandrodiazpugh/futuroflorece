@@ -1,0 +1,36 @@
+.mainSection {
+    display: flex;
+    height: calc(100vh - 90px);
+}
+
+.heroImg {
+    background-image: url(../images/hero.jpg);
+    width: 65vw;
+    object-fit: cover;
+    background-position: center;
+}
+
+.heroTitle {
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    margin-inline-start: 3rem;
+}
+
+.heading {
+    font-size: 72px;
+    width: 10ch;
+    color: var(--clrPrimariaGris);
+    margin-block-start: 15vh;
+}
+
+.headingEmphasis {
+    color: var(--clrPrimariaMagenta);
+}
+
+.text {
+    color: var(--clrPrimariaGris);
+    width: 25ch;
+    font-size: 24px;
+    margin-block: 5vh;
+}

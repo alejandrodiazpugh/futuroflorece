@@ -1,0 +1,36 @@
+.container {
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--clrPrimariaMagenta);
+    color: #FFF;
+}
+
+.title {
+    width: 18ch;
+    text-align: center;
+    flex-basis: 30%;
+    color: #FFF;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formLabel {
+    font-size: small;
+}
+
+.field {
+    height: 2.73rem;
+    width: 30.5rem;
+    border-radius: 0.5rem;
+    margin-inline-end: 1rem;
+    border: none;
+    margin-block-start: 0.7rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-inline: 0.5rem
+}

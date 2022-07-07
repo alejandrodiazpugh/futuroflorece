@@ -1,0 +1,40 @@
+.bannerHero {
+    background-image: url(../images/donationsBanner.JPG);
+    width: 100vw;
+    height:70vh;
+    background-position: 25% 45%;
+    background-size: cover;
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgba(44, 66, 96, .72);
+    width: 100vw;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.title {
+    color: #FFF;
+    font-size: 2.1em;
+    text-align: left;
+    margin-inline-start: 10vw;
+    margin-block-start: 10vh;
+    grid-column: span 3;
+}
+
+span {
+    color: var(--clrPrimariaMagenta)
+}
+
+.text {
+    color: #FFF;
+    width: 28ch;
+    grid-column: 3;
+}
+
+.btn {
+    grid-row: 3;
+    grid-column: 3;
+}

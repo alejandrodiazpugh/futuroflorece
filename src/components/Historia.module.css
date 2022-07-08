@@ -1,0 +1,23 @@
+.title {
+    text-align: center;
+    margin-block: 2rem;
+}
+.main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.img {
+    background-color: var(--clrPrimariaGris);
+    margin-inline: 5vw;
+}
+
+.text {
+    text-align: justify;
+    margin-inline-end: 5vw;
+    font-size: 0.7em;
+}
+
+.container {
+    margin-block: 3vh;
+}

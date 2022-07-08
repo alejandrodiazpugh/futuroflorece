@@ -7,7 +7,7 @@ export default function Hero() {
         <div className={heroStyles.heroImg}></div>
         <section className={heroStyles.heroTitle}>
             <h1 className={heroStyles.heading}>EL PARTIDO QUE NOS <span className={heroStyles.headingEmphasis}>MERECEMOS</span></h1>
-            <p className={heroStyles.text}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque finibus pharetra fringilla. Phasellus eleifend egestas est eu consectetur. </p>
+            <p className={heroStyles.text}>Una alternativa política a lo de siempre. Buscamos construir un Nuevo León que si se preocupe por sus habitantes.</p>
         </section>
     </div>
   )

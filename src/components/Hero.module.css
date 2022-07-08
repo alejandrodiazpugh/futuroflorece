@@ -6,11 +6,12 @@
 .heroImg {
     background-image: url(../images/hero.jpg);
     width: 65vw;
-    object-fit: cover;
+    background-size: cover;
     background-position: center;
 }
 
 .heroTitle {
+    font-size: 1em;
     width: 35vw;
     display: flex;
     flex-direction: column;
@@ -18,7 +19,7 @@
 }
 
 .heading {
-    font-size: 72px;
+    font-size: 2em;
     width: 10ch;
     color: var(--clrPrimariaGris);
     margin-block-start: 15vh;

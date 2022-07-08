@@ -2,8 +2,64 @@
     width: 100vw;
     background-color: var(--clrSecundariaAzulFuerte);
     display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr, 1fr;
+    gap: 1rem;
+    padding-inline: 3vw;
+    padding-block: 3vh;
+}
+.siteMap {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1 / span 6; 
+    grid-row: 1 / span 2;
 }
 
+.flexContainer {
+    display: flex;
+    gap: 2vw;
+}
 .title {
     color: #FFF;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.725em;   
+    margin-block-end: 1rem;
+}
+.subtitle {
+    font-family: "Barlow Condensed", sans-serif;
+    color: #FFF;
+    font-size: 0.7em;
+}
+
+.section {
+    font-family: "Montserrat", sans-serif;
+    font-size: small;
+    margin-block: 0.5rem
+}
+
+.socialMedia {
+    grid-column: 8 / span 5;
+}
+
+.socialLogos {
+    display: flex;
+    justify-content: flex-start;
+    gap: 3rem;
+    margin-block-end: 1rem;
+}
+
+.socialLogo {
+    fill: #FFF;
+}
+
+.contact {
+    grid-column: 8 / span 5;
+}
+
+.address {
+    font-size: small;
+    color: #FFF;
+    font-style: normal;
+    margin-block: 0.5rem;
 }

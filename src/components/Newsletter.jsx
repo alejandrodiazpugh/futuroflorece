@@ -26,7 +26,7 @@ export default function Newsletter() {
           placeholder="elfuturo@florece.mx"
           type="email"
         />
-        <Button text={'Enviar'} btnType={'button'}/>
+        <Button text={'Enviar'} btnType={'button'} variant={'btnMain'}/>
         </div>
       </Form>
     </Formik>

@@ -1,16 +1,17 @@
 .bannerHero {
     background-image: url(../images/donationsBanner.JPG);
     width: 100vw;
-    height:70vh;
+    height:80vh;
     background-position: 25% 45%;
     background-size: cover;
 }
 
 .overlay {
     position: absolute;
-    background-color: rgba(44, 66, 96, .72);
+    /* background-color: rgba(44, 66, 96, .72); */
+    background-color: rgba(0,0,0,0.75);
     width: 100vw;
-    height: 70vh;
+    height: 80vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
@@ -32,9 +33,13 @@ span {
     color: #FFF;
     width: 28ch;
     grid-column: 3;
+    text-align: center;
+    margin-inline-end: 3vw;
 }
 
 .btn {
     grid-row: 3;
     grid-column: 3;
+    place-self: center;
+    margin-block-end: 3vh;
 }

@@ -1,0 +1,14 @@
+.title {
+    text-align: center;
+    margin-block: 2rem;
+}
+
+.cardContainer {
+    display: flex;
+    flex: 0 1 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-inline: 1rem;
+}

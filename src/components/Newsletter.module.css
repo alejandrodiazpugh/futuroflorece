@@ -9,7 +9,7 @@
 }
 
 .title {
-    width: 18ch;
+    width: 35vw;
     text-align: center;
     flex-basis: 30%;
     color: #FFF;
@@ -33,4 +33,26 @@ form {
     margin-block-start: 0.7rem;
     font-family: 'Montserrat', sans-serif;
     padding-inline: 0.5rem
+}
+
+@media only screen and (max-width: 930px) {
+    .container {
+        height: 60vh;
+        flex-direction: column;
+    }
+    .title {
+        width: 90vw;
+        padding-inline: 2rem;
+    }
+    .fieldAndBtn {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+    form {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
 }

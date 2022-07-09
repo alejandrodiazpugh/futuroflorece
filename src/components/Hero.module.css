@@ -20,7 +20,7 @@
 
 .heading {
     font-size: 2em;
-    width: 10ch;
+    
     color: var(--clrPrimariaGris);
     margin-block-start: 15vh;
 }
@@ -31,7 +31,37 @@
 
 .text {
     color: var(--clrPrimariaGris);
-    width: 25ch;
+    width: 25vw;
     font-size: 24px;
     margin-block: 5vh;
+}
+
+
+@media only screen and (max-width: 930px) {
+    .heroImg {
+        width: 100vw;
+    }
+    
+    .heroTitle {
+        width: 100vw;
+        height: calc(100vh - 90px);
+        background-color: rgba(0,0,0,0.60);
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding-inline-end: 3vw;
+
+    }
+    .heading {
+        color: #FFF;
+        text-align: right;
+    }
+    .text {
+        color: #FFF;
+        width: 60vw;
+        font-size: 1.1em;
+        text-align: right;
+    }
 }

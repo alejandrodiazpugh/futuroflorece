@@ -18,7 +18,7 @@ export default function Newsletter() {
     >
       <Form>
       <label className={newsletterStyles.formLabel} htmlFor="email">Déjanos aquí tu correo:</label>
-        <div>
+        <div className={newsletterStyles.fieldAndBtn}>
         <Field 
           id="email"
           className={newsletterStyles.field}

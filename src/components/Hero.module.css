@@ -1,6 +1,7 @@
 .mainSection {
     display: flex;
-    height: calc(100vh - 90px);
+    height: 100vh;
+    z-index: 10;
 }
 
 .heroImg {
@@ -44,7 +45,7 @@
     
     .heroTitle {
         width: 100vw;
-        height: calc(100vh - 90px);
+        height: calc(100vh);
         background-color: rgba(0,0,0,0.60);
         position: absolute;
         margin: 0;

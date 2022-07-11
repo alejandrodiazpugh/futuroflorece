@@ -26,6 +26,7 @@ initializeApp(firebaseConfig);
      <Navbar />
      <Routes>
       <Route path='/Inicio' element={  <InicioContainer /> } />
+      <Route path='/' element={  <InicioContainer /> } />
       <Route path='/QuienesSomos' element={  <QuienesSomosContainer /> } />
       <Route path='/DocumentosBasicos' element={  <DocumentosBasicosContainer /> } />
       <Route path='/Sumate' element={  <SumateContainer /> } />

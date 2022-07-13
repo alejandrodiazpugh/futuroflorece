@@ -1,7 +1,12 @@
 import React from 'react'
+import Support from './Support'
+import ContactForm from './ContactForm'
 
 export default function SumateContainer() {
   return (
-    <div>SumateContainer</div>
+    <div>
+      <Support />
+      <ContactForm />
+    </div>
   )
 }

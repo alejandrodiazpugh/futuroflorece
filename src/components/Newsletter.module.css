@@ -1,7 +1,8 @@
 .container {
     width: 100vw;
-    height: 30vh;
+    height: auto;
     display: flex;
+    padding-block: 5rem;
     align-items: center;
     justify-content: space-around;
     background-color: var(--clrPrimariaMagenta);
@@ -37,16 +38,17 @@ form {
 
 @media only screen and (max-width: 930px) {
     .container {
-        height: 60vh;
         flex-direction: column;
     }
     .title {
         width: 90vw;
         padding-inline: 2rem;
+        margin-block-end: 2rem;
     }
     .fieldAndBtn {
         display: flex;
         flex-direction: column;
+        align-items: center;
         gap: 1rem;
         text-align: center;
     }
@@ -54,5 +56,9 @@ form {
         align-items: center;
         justify-content: center;
         text-align: center;
+    }
+    .field {
+        width: 70vw;
+        margin-inline:0;
     }
 }

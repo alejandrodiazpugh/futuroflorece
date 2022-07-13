@@ -33,10 +33,10 @@ export default function Footer() {
      <div className={footerStyles.socialMedia}>
       <h3 className={footerStyles.title}>NUESTRAS REDES</h3>
       <ul className={footerStyles.socialLogos}>
-        <li><FaFacebookSquare className={footerStyles.socialLogo} /></li>
-        <li><FaInstagram className={footerStyles.socialLogo} /></li>
-        <li><FaTwitter className={footerStyles.socialLogo} /></li>
-        <li><FaYoutube className={footerStyles.socialLogo} /></li>
+        <li><a href="https://www.facebook.com/elfuturoflorece" target={"_blank"}><FaFacebookSquare className={footerStyles.socialLogo} /></a></li>
+        <li><a href="https://www.instagram.com/elfuturoflorece/" target={"_blank"}><FaInstagram className={footerStyles.socialLogo} /></a></li>
+        <li><a href="https://twitter.com/elfuturoflorece" target={"_blank"}><FaTwitter className={footerStyles.socialLogo} /></a></li>
+        <li><a href="https://www.youtube.com/channel/UCoLSOliq_VpkACd6rheTDIA" target={"_blank"}><FaYoutube className={footerStyles.socialLogo} /></a></li>
         <li><FaTiktok className={footerStyles.socialLogo} /></li>
       </ul>
      </div>

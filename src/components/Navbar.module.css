@@ -7,7 +7,7 @@
 .navHeader {
     background-color: var(--clrNavBar);
     display: flex;
-    position: absolute;
+    position: relative;
     width: 100vw;
     height: 90px;
     justify-content: space-between;
@@ -35,18 +35,20 @@
 }
 
 .navLink:active {
-    background-color: var(--clrPrimariaGris);
     color: var(--clrPrimariaMagenta);
 }
 
 .button {
     display: none;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 930px) {
     
     .navLinks {
         display: none;
+        transition: 300ms ease-in-out;
+        transform-origin: bottom center ;
     }
     .navLinksOpen {
         display: flex;
@@ -63,11 +65,6 @@
         border: none;
     }
 
-    .navLinksClose {
-        animation: growDown 300ms;
-        animation-direction: reverse;
-
-    }
 
     .navHeader {
         position: absolute;

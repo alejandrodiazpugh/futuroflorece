@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from "./Support.module.css"
 
+
 export default function Support() {
   return (
     <div className={styles.container}>
@@ -12,15 +13,15 @@ export default function Support() {
         <section className={styles.cards}>
             <article className={styles.card}>
                 <h3 className={styles.cardTitle}>BUSCAMOS VOLUNTARIXS</h3>
-                <div className={styles.img}></div>
+                <div className={`${styles.img} ${styles.imgVoluntarixs}`}></div>
             </article>
             <article className={styles.card}>
                 <h3 className={styles.cardTitle}>BUSCAMOS MILITANCIAS</h3>
-                <div className={styles.img}></div>
+                <div className={`${styles.img} ${styles.imgMilitancias}`}></div>
             </article>
             <article className={styles.card}>
                 <h3 className={styles.cardTitle}>BUSCAMOS DONANTES</h3>
-                <div className={styles.img}></div>
+                <div className={`${styles.img} ${styles.imgDonantes}`}></div>
             </article>
         </section>
     </div>

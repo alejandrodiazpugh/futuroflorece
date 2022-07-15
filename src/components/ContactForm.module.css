@@ -1,4 +1,80 @@
 .title {
     width: 100vw;
     text-align: center;
+    margin-block-start: 2rem;
+}
+.labels {
+    font-size: small;
+}
+
+.flexMainContainer {
+    margin-inline: 2rem;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 2rem;
+    margin-block: 2rem;
+}
+
+.firstName,
+.lastName {
+    grid-column: span 2 / auto;
+    display: flex;
+    flex-direction: column;
+    padding-block-end: 2rem;
+}
+
+
+.email {
+    grid-column: span 4;
+    display: flex;
+    flex-direction: column;
+}
+
+.checkboxes {
+    grid-column: span 4;
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+}
+
+.labelContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkboxLabels {
+    -webkit-appearance: none;
+    appearance: none;
+    font-size: small;
+    display: flex;
+    justify-content: space-between;
+}
+
+.messageBox {
+    grid-column: span 4;
+    display: flex;
+    flex-direction: column;
+}
+
+.messageLabel {
+    font-size: 0.8em;
+}
+
+.contactImg {
+    background-color: var(--clrPrimariaGris);
+    background-image: url(../images/contact.jpg);
+    background-position: center;
+    background-size: cover;
+    place-self: center;
+    width: 90%;
+    height: 90%;
+
+}
+
+@media only screen and (max-width: 930px) {
+    .flexMainContainer {
+        flex-direction: column-reverse;
+        flex: 0 1 100%;
+    }
 }
